@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title> My Website - About </title> 
+    <link rel="stylesheet" href="{{url_for('static', filename='css/app.css') }}" />
 </head> 
 <body> 
+    <img src="{{ url_for('static', filename='myimage.png')}}" />
     <h1> Alyssa Walker </h1>
-    <p> I am a Computer Science major that enjoys listening to music and fancies Chocolate related food items. </p>
+    <p> I am a Computer Science major that enjoys listening to music and fancies chocolate related food items. </p>
 </body>
 </html> 
